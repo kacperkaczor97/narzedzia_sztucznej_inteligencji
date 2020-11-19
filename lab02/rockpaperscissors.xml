@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>rockpaperscissors</name>
+    </assembly>
+    <members>
+        <member name="T:rockpaperscissors.GameWindow">
+            <summary>
+            Klasa GameWindow posiada wszystkie potrzebne metody do stowrzenia aplikacji okienkowej RockPaperScisors
+            </summary>
+        </member>
+        <member name="F:rockpaperscissors.GameWindow.rounds">
+            <remarks>
+            Na początku zostały zadeklarowane wszystkie potrzebne zmienne:
+            <example>
+            <code>
+            int rounds; 
+            int timePerRound; 
+            bool gameOver;
+            string aiChoice;
+            string playerChoice;
+            int playerScore;
+            int aiScore;
+            </code>
+            </example>  
+            </remarks>
+        </member>
+        <member name="M:rockpaperscissors.GameWindow.rockButton_Click(System.Object,System.EventArgs)">
+            <summary>
+            Metoda rockButton_Click zostaje wywołana w momencie ,gdy Player wybierze przycisk "Rock" i ustawia playerChoice na "Rock" + playerBox.Image na obraz Kamienia
+            </summary>
+        </member>
+        <member name="M:rockpaperscissors.GameWindow.paperButton_Click(System.Object,System.EventArgs)">
+            <summary>
+            Metoda paperButton_Click zostaje wywołana w momencie ,gdy Player wybierze przycisk "Paper" i ustawia playerChoice na "Paper" + playerBox.Image na obraz Papieru
+            </summary>
+        </member>
+        <member name="M:rockpaperscissors.GameWindow.scissorsButton_Click(System.Object,System.EventArgs)">
+            <summary>
+            Metoda scissorsrButton_Click zostaje wywołana w momencie ,gdy Player wybierze przycisk "Scissors" i ustawia playerChoice na "Scissors" + playerBox.Image na obraz Nożyce
+            </summary>
+        </member>
+        <member name="M:rockpaperscissors.GameWindow.restartButton_Click(System.Object,System.EventArgs)">
+            <summary>
+            Metoda restartButton_Click zostaje wywołana w momencie ,gdy Player wybierze przycisk "Restart", dzięki tej metodzie rozpoczynamy grę od nowa
+            </summary>
+        </member>
+        <member name="M:rockpaperscissors.GameWindow.timer1_Tick(System.Object,System.EventArgs)">
+            <summary>
+            Metoda timer1_Tick służy do odlicznia czasu między pojawieniem się wyborów graczy, podczas odliczania Player ma możliwość zmiany decyzji
+            </summary>
+        </member>
+        <member name="M:rockpaperscissors.GameWindow.checkGame">
+            <summary>
+            Metoda checkGame sprawdza status danej rundy i jest odpowiedzialna za przydzielanie punktów
+            </summary>
+        </member>
+        <member name="M:rockpaperscissors.GameWindow.checkDecision">
+            <summary>
+            Metoda checkDecision sprawdza czy zostały sprawdzone warunki dla zwycięstwa Playera lub AI
+            </summary>
+        </member>
+        <member name="M:rockpaperscissors.GameWindow.startNextRoud">
+            <summary>
+            Metoda startNextRoud rozpoczyna nam kolejną rundę
+            </summary>
+        </member>
+        <member name="M:rockpaperscissors.GameWindow.InitializeComponent">
+            <summary>
+             Required method for Designer support - do not modify
+             the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:rockpaperscissors.Program.Main">
+            <summary>
+             The main entry point for the application.
+            </summary>
+        </member>
+    </members>
+</doc>

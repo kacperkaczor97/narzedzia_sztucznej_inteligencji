@@ -1,0 +1,17 @@
+D:\VisualStudio\Projekty\KamieńPapierNożyce\rockpaperscissors\obj\Debug\netcoreapp3.1\rockpaperscissors.GameWindow.resources
+D:\VisualStudio\Projekty\KamieńPapierNożyce\rockpaperscissors\obj\Debug\netcoreapp3.1\rockpaperscissors.csproj.GenerateResource.cache
+D:\VisualStudio\Projekty\KamieńPapierNożyce\rockpaperscissors\bin\Debug\netcoreapp3.1\rockpaperscissors.exe
+D:\VisualStudio\Projekty\KamieńPapierNożyce\rockpaperscissors\bin\Debug\netcoreapp3.1\rockpaperscissors.deps.json
+D:\VisualStudio\Projekty\KamieńPapierNożyce\rockpaperscissors\bin\Debug\netcoreapp3.1\rockpaperscissors.runtimeconfig.json
+D:\VisualStudio\Projekty\KamieńPapierNożyce\rockpaperscissors\bin\Debug\netcoreapp3.1\rockpaperscissors.runtimeconfig.dev.json
+D:\VisualStudio\Projekty\KamieńPapierNożyce\rockpaperscissors\bin\Debug\netcoreapp3.1\rockpaperscissors.dll
+D:\VisualStudio\Projekty\KamieńPapierNożyce\rockpaperscissors\bin\Debug\netcoreapp3.1\rockpaperscissors.pdb
+D:\VisualStudio\Projekty\KamieńPapierNożyce\rockpaperscissors\obj\Debug\netcoreapp3.1\rockpaperscissors.Properties.Resources.resources
+D:\VisualStudio\Projekty\KamieńPapierNożyce\rockpaperscissors\obj\Debug\netcoreapp3.1\rockpaperscissors.AssemblyInfoInputs.cache
+D:\VisualStudio\Projekty\KamieńPapierNożyce\rockpaperscissors\obj\Debug\netcoreapp3.1\rockpaperscissors.AssemblyInfo.cs
+D:\VisualStudio\Projekty\KamieńPapierNożyce\rockpaperscissors\obj\Debug\netcoreapp3.1\rockpaperscissors.csproj.CoreCompileInputs.cache
+D:\VisualStudio\Projekty\KamieńPapierNożyce\rockpaperscissors\obj\Debug\netcoreapp3.1\rockpaperscissors.dll
+D:\VisualStudio\Projekty\KamieńPapierNożyce\rockpaperscissors\obj\Debug\netcoreapp3.1\rockpaperscissors.pdb
+D:\VisualStudio\Projekty\KamieńPapierNożyce\rockpaperscissors\obj\Debug\netcoreapp3.1\rockpaperscissors.genruntimeconfig.cache
+D:\VisualStudio\Projekty\KamieńPapierNożyce\rockpaperscissors\bin\Debug\netcoreapp3.1\rockpaperscissors.xml
+D:\VisualStudio\Projekty\KamieńPapierNożyce\rockpaperscissors\obj\Debug\netcoreapp3.1\rockpaperscissors.csprojAssemblyReference.cache
