@@ -26,7 +26,9 @@ Przypisanie etykiet do obrazkow
 '''
 class_names = ['0', '1', '2', '3', '4',
                '5', '6', '7', '8', '9']
-
+'''
+Wyswietlenie 25 pierwszych pozycji
+'''
 plt.figure(figsize=(10,10))
 for i in range(25):
     plt.subplot(5,5,i+1)
