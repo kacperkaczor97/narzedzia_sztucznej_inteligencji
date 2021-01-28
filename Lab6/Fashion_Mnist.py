@@ -28,7 +28,7 @@ class_names = ['T-shirt/top', 'Trouser', 'Pullover', 'Dress', 'Coat',
                'Sandal', 'Shirt', 'Sneaker', 'Bag', 'Ankle boot']
 
 '''
-Przeksztalcenie formatow obrazkow
+Wyswietlenie 25 pierwszych pozycji
 '''
 plt.figure(figsize=(10,10))
 for i in range(25):
