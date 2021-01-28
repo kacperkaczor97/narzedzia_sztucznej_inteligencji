@@ -2,7 +2,7 @@
 Autorzy:
 Karol Niemykin
 Kacper Kaczor
-Celem zadania jest nauczy program rozpoznawania zwierzat poprzez siec neuronowa ze zbioru CIFAR-10
+Celem zadania jest nauczy program rozpoznawania ubran poprzez siec neuronowa ze zbioru Fashion-Mnist
 Uruchomienie:
   - Pobrac projekt z Github
   - Stworzyc projekt w PyCharm
