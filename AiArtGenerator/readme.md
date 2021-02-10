@@ -1,17 +1,17 @@
-#Ai Art Generator
+# Ai Art Generator
 
-###Autorzy
+### Autorzy
 Kacper Kaczor
 Karol Niemykin
 
-###Cel zadania
+### Cel zadania
 Celem zadania byo stworzenie obrazu za pomocą sztucznej inteligencji i sieci neuronowych. Do stworzenia rozwiązania urzyliśmy bibliotek:
 - [TensorFlow](https://www.tensorflow.org/)
 - [Keras](https://keras.io/)
 
 # Troche Teorii
 
-###Konwulacyjne sieci neuronowe (CNN)
+### Konwulacyjne sieci neuronowe (CNN)
 
 Najczęściej konwulacyjne sieci neuronowe są używane do przetwarzania obrazów.
 CNN to algorytm, który może pobrać obraz wejściowy i sklasyfikować go wedle predefiniowanych kategorii (np. rasy psa). Jest to możliwe dzięki przypisaniu wag różnym kształtom, strukturom, obiektom.
@@ -53,7 +53,7 @@ Ostatnią warstwą sieci jest warstwa Soft-Max, pozwalająca na uzyskanie warto�
 
 Konwolucyjne sieci neuronowe są ważnym elementem rozwoju uczenia maszynowego. Przyczyniają się do postępu automatyzacji i pozwalają rozszerzyć ludzkie zdolności percepcji. Ich możliwości będą stale rosnąć wraz z mocą obliczeniową komputerów i ilością dostępnych danych.
 
-#Nasz Kod
+# Nasz Kod
 
 Zaczeliśmy od importowania biblliotek oraz sprawdziliśmy wersje Pythona TensorFlow oraz Keras. Nasz kod działa poprawnie z TensorFlow 1.13.1, 
 więc ta wersja jest rekomendowana.
@@ -240,21 +240,21 @@ print('Image saved')
 end = time.time()
 print('Time taken: {}'.format(end-start))
 ```
-##A oto co uzyskaliśmy
+## A oto co uzyskaliśmy
 
-####Obraz bazowy
+#### Obraz bazowy
 
 ![](https://github.com/kacperkaczor97/narzedzia_sztucznej_inteligencji/blob/master/AiArtGenerator/base_image.jpg?raw=true)
 
-####Obraz wzorcowy
+#### Obraz wzorcowy
 
 ![](https://github.com/kacperkaczor97/narzedzia_sztucznej_inteligencji/blob/master/AiArtGenerator/reference_image.jpg?raw=true)
 
-####Nasze wyniki
+#### Nasze wyniki
 100 Iteracji
 ![](https://github.com/kacperkaczor97/narzedzia_sztucznej_inteligencji/blob/master/AiArtGenerator/output100.jpg?raw=true)
 
 200 Iteracji
 ![](https://github.com/kacperkaczor97/narzedzia_sztucznej_inteligencji/blob/master/AiArtGenerator/output200.jpg?raw=true)
 
-#Koniec
+# Koniec
