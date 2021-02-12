@@ -5,7 +5,7 @@ Kacper Kaczor
 Karol Niemykin
 
 ### Cel zadania
-Celem zadania byo stworzenie obrazu za pomocą sztucznej inteligencji i sieci neuronowych. Do stworzenia rozwiązania urzyliśmy bibliotek:
+Celem zadania było stworzenie obrazu za pomocą sztucznej inteligencji i sieci neuronowych. Do stworzenia rozwiązania użyliśmy bibliotek:
 - [TensorFlow](https://www.tensorflow.org/)
 - [Keras](https://keras.io/)
 
@@ -19,7 +19,7 @@ CNN to algorytm, który może pobrać obraz wejściowy i sklasyfikować go wedle
  
 Sieci konwolucyjne poprzez trening są w stanie nauczyć się, jakie cechy szczególne obrazu pomagają w jego klasyfikacji. Ich przewagą nad standardowymi sieciami głębokimi jest większa skuteczność w wykrywaniu zawiłych zależności w obrazach. Jest to możliwe dzięki zastosowaniu filtrów badających zależności pomiędzy sąsiednimi pikselami.
 
-W naszym przykładzie dzieki temu obraz bazowy dalej zachowuje swój kształt i sens. Postacie na obrazie dalej bedą rozpoznawalne. 
+W naszym przykładzie obraz bazowy dalej zachowuje swój kształt i sens. Postacie na obrazie dalej bedą rozpoznawalne. 
 
 Każdy obraz jest macierzą wartości, których liczba jest proporcjonalna do jego szerokości i wysokości w pikselach. W przypadku obrazów RGB obraz cechują trzy kolory podstawowe, więc każdy piksel reprezentowany jest przez trzy wartości. Zadaniem CNN jest redukcja rozmiaru obrazu do lżejszej formy bez utraty wartościowych cech, czyli tych które niosą informacje kluczowe dla klasyfikacji.
 
@@ -222,10 +222,10 @@ P = get_feature_reps(x=cImArr, layer_names=[cLayerName], model=cModel)[0]
 As = get_feature_reps(x=sImArr, layer_names=sLayerNames, model=sModel)
 ws = np.ones(len(sLayerNames))/float(len(sLayerNames))
 ```
-Trzeba wybra liczbe iteracji. Optymalna ilość iteracji to pomiędzy 500, a 600, ale wymagaja one dobrych podzespołów. Nam udało sie uzyskać wyniki z 100 i 200 iteracjiami i też uważamy, że są całkiem niezłe. Implementujemy również informowanie o danym stanie iteracjii.
+Trzeba wybrać liczbę iteracji. Optymalna ilość iteracji to pomiędzy 500, a 600, ale wymagaja one dobrych podzespołów.
 
 ```Python
-iterations = 500
+iterations = 600
 x_val = gIm0.flatten()
 start = time.time()
 xopt, f_val, info= fmin_l_bfgs_b(calculate_loss, x_val, fprime=get_grad,
@@ -240,6 +240,8 @@ print('Image saved')
 end = time.time()
 print('Time taken: {}'.format(end-start))
 ```
+Czas działania Naszego programu
+
 ## A oto co uzyskaliśmy
 
 #### Obraz bazowy
@@ -251,10 +253,7 @@ print('Time taken: {}'.format(end-start))
 ![](https://github.com/kacperkaczor97/narzedzia_sztucznej_inteligencji/blob/master/AiArtGenerator/reference_image.jpg?raw=true)
 
 #### Nasze wyniki
-100 Iteracji
-![](https://github.com/kacperkaczor97/narzedzia_sztucznej_inteligencji/blob/master/AiArtGenerator/output100.jpg?raw=true)
+![](https://github.com/kacperkaczor97/narzedzia_sztucznej_inteligencji/blob/master/AiArtGenerator/output.jpg?raw=true)
 
-200 Iteracji
-![](https://github.com/kacperkaczor97/narzedzia_sztucznej_inteligencji/blob/master/AiArtGenerator/output200.jpg?raw=true)
 
 # Koniec
