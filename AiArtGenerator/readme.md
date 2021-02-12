@@ -242,6 +242,9 @@ print('Time taken: {}'.format(end-start))
 ```
 Czas działania Naszego programu
 
+![](https://github.com/kacperkaczor97/narzedzia_sztucznej_inteligencji/blob/master/AiArtGenerator/czas.png?raw=true)
+![](https://github.com/kacperkaczor97/narzedzia_sztucznej_inteligencji/blob/master/AiArtGenerator/czas2.png?raw=true)
+
 ## A oto co uzyskaliśmy
 
 #### Obraz bazowy
