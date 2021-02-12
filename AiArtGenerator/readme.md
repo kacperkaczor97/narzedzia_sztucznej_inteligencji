@@ -251,10 +251,7 @@ print('Time taken: {}'.format(end-start))
 ![](https://github.com/kacperkaczor97/narzedzia_sztucznej_inteligencji/blob/master/AiArtGenerator/reference_image.jpg?raw=true)
 
 #### Nasze wyniki
-100 Iteracji
-![](https://github.com/kacperkaczor97/narzedzia_sztucznej_inteligencji/blob/master/AiArtGenerator/output100.jpg?raw=true)
+![](https://github.com/kacperkaczor97/narzedzia_sztucznej_inteligencji/blob/master/AiArtGenerator/output.jpg?raw=true)
 
-200 Iteracji
-![](https://github.com/kacperkaczor97/narzedzia_sztucznej_inteligencji/blob/master/AiArtGenerator/output200.jpg?raw=true)
 
 # Koniec
