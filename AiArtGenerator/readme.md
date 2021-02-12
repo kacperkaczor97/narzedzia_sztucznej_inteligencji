@@ -88,8 +88,8 @@ genImOutputPath = 'output.jpg'
 Następnie ustawiliśmy rozmiar naszych obrazów na 512px, oraz ustawiliśmy procesowanie obrazów zmienne `cImArr`, `sImArr` oraz `gIm0` dotyczą usprawnienia wykonywania skryptu poprzez procesor GPU. Typy `float32` i `float64` pomagają w uniknięciu błędów procesora graficznego.
 
 ```Python
-targetHeight = 512
-targetWidth = 512
+targetHeight = 500
+targetWidth = 500
 targetSize = (targetHeight, targetWidth)
 
 cImageOrig = Image.open(cImPath)
