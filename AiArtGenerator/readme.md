@@ -4,6 +4,9 @@
 Kacper Kaczor
 Karol Niemykin
 
+### Inspiracja
+(https://www.analyticsvidhya.com/blog/2016/11/creating-an-artificial-artist-color-your-photos-using-neural-networks/?fbclid=IwAR2nZlyT8TCrgQIgZm7-ZOTPnpbJMFkI1ZFoZY6CkjpywPdehmGUXnj03DU)
+
 ### Cel zadania
 Celem zadania było stworzenie obrazu za pomocą sztucznej inteligencji i sieci neuronowych. Do stworzenia rozwiązania użyliśmy bibliotek:
 - [TensorFlow](https://www.tensorflow.org/)
